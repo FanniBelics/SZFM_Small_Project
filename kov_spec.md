@@ -16,8 +16,6 @@ Ha nem sikerül a játékosnak elég csillagot gyűjtenie, akkor nem léphet a k
 Egy szinten maximum 3 csillagot lehet szerezni, megoldási idő függvénye, hogy hányat kap a játékos.
 
 ## Rendszerre vonatkozó törvények, rendeletek, szabványok, ajánlások
-Fontos, hogy a bejelentkezési adatokat titkosítsuk, a magasabb biztonság érdekében.
-
 
 
 
