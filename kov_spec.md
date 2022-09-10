@@ -21,7 +21,7 @@ Egy szinten maximum 3 csillagot lehet szerezni, megoldási idő függvénye, hog
 A klasszikus kirakós nem használja ki, a technika nyújtotta lehetőségeket. Mivel digitalizáva könnyebb újabb és újabb feladatot előállítani, így nem kellenek polcok és unalmas sem lesz a játék közbeni tanulás. Környezet és költségkímélő megoldás ugyanis nem kell előállítani a kirakóst, nem kellenek papírdobozok és szállítani sem kell őket, ráadásul a felhasználó számárá ingyenes.
 
 ## Igényelt üzleti folyamatok modellje
+A megrendelő azt szeretné ha a gyermekek a bejelentkezés oldalon be tudnának jelentkezni, illetve regisztrációt kezdeményezni, melyet egy új oldalon egy form segítségével tudnának véghez vinni. Emellett szeretne nehézségi szinteket és ezekhez igazodó pontrendszert, illetve pontokért igényelhető segítséget.A megrendelő igénye még, hogy a nehézségi szintek ne csak választhatóak legyenek, hanem ellenőrizzük azt is, hogy a felhasználónak van-e elég pontja a nehezebb szint megnyitásához.
+![modellrajz](igenyelt.jpg)
 
 ## Követelménylista
-
-## Fogalomszótár

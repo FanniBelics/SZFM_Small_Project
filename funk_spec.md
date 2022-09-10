@@ -19,5 +19,3 @@
 ## Képernyőtervek
 
 ## Funkció - követelmány megfeleltetés
-
-## Fogalomszótár
