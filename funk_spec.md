@@ -30,5 +30,3 @@ Egy szinten maximum 3 csillagot lehet szerezni, megoldási idő függvénye, hog
 ## Képernyőtervek
 
 ## Funkció - követelmány megfeleltetés
-
-## Fogalomszótár
