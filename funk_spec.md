@@ -46,6 +46,8 @@ csak leül és élvezheti a technika adta előnyöket, és játszhat a játékka
 Alapvetően egy egyszerű, de nagyszerű szabadidős tevékenységet kínál a programunk.
 
 ## Képernyőtervek
+ Trees theme: https://tinyurl.com/22wcndrv  Drawings theme:  https://tinyurl.com/2p8sh4yf
+
 <img src="./Pictures/Kezdo.png"  width="800" height="550">
 
 <img src="./Pictures/Reg.png"  width="800" height="550">
