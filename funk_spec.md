@@ -43,6 +43,8 @@ A megrendelő azt szeretné ha a gyermekek a bejelentkezés oldalon be tudnának
 
 
 ## Képernyőtervek
+ Trees theme: https://tinyurl.com/22wcndrv  Drawings theme:  https://tinyurl.com/2p8sh4yf
+
 <img src="./Pictures/Kezdo.png"  width="800" height="550">
 
 <img src="./Pictures/Reg.png"  width="800" height="550">
