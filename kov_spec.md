@@ -16,14 +16,9 @@ Ha nem sikerül a játékosnak elég csillagot gyűjtenie, akkor nem léphet a k
 Egy szinten maximum 3 csillagot lehet szerezni, megoldási idő függvénye, hogy hányat kap a játékos.
 
 ## Rendszerre vonatkozó törvények, rendeletek, szabványok, ajánlások
-<<<<<<< HEAD
-
-
-=======
 Mivel az alkalmazás lehetőséget ad a bejelentkezésre, kezelnünk kell az e-mail címeket és a jelszvakat a **GDPR**-nak megfelelően.
 A kirakós képei miatt gondolnunk kell a **Szerzői jogokra** illetve, mivel a célközönség **18 éven aluli** arról is gondoskodnunk kell, hogy a képek számukra megfelelőek, nem tartalmaznak rejtett felnőtteknek szánt tartalmakat, erőszakot, bármilyen, számukra tiltott szerek használatát nem népszerűsítik.
 Emellett, mivel a felhasználók **18 éven aluliak** a felhasználási feltételeket is ennek megfelelően kell megfogalmaznunk.
->>>>>>> origin/main
 
 ## Jelenlegi üzleti folyamat modellje
 A klasszikus kirakós nem használja ki, a technika nyújtotta lehetőségeket. Mivel digitalizáva könnyebb újabb és újabb feladatot előállítani, így nem kellenek polcok és unalmas sem lesz a játék közbeni tanulás. Környezet és költségkímélő megoldás ugyanis nem kell előállítani a kirakóst, nem kellenek papírdobozok és szállítani sem kell őket, ráadásul a felhasználó számárá ingyenes.
