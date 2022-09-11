@@ -22,8 +22,9 @@ Ha nem sikerül a játékosnak elég csillagot gyűjtenie, akkor nem léphet a k
 Egy szinten maximum 3 csillagot lehet szerezni, megoldási idő függvénye, hogy hányat kap a játékos.
 
 ## Rendszerre vonatkozó külső megszorítások
-
-
+Mivel az alkalmazás lehetőséget ad a bejelentkezésre, kezelnünk kell az e-mail címeket és a jelszvakat a **GDPR**-nak megfelelően.
+A kirakós képei miatt gondolnunk kell a **Szerzői jogokra** illetve, mivel a célközönség **18 éven aluli** arról is gondoskodnunk kell, hogy a képek számukra megfelelőek, nem tartalmaznak rejtett felnőtteknek szánt tartalmakat, erőszakot, bármilyen, számukra tiltott szerek használatát nem népszerűsítik.
+Emellett, mivel a felhasználók **18 éven aluliak** a felhasználási feltételeket is ennek megfelelően kell megfogalmaznunk.
 
 ## Jelenlegi üzleti folyamat modellje
 A klasszikus kirakós nem használja ki, a technika nyújtotta lehetőségeket, semmilyen digitalizáció nem történt ezen a téren,
@@ -39,11 +40,13 @@ A megrendelő azt szeretné ha a gyermekek a bejelentkezés oldalon be tudnának
 
 
 ## Használati esetek
-
-
+A legszebb a digitális kirakósban, hogy bárhol bármikor lehet használni, amikor csak kedvünk tartja.
+Ha az emberre rájön, hogy szeretne kicsit kikapcsolni, vagy a gyermek unatkozik, akkor
+csak leül és élvezheti a technika adta előnyöket, és játszhat a játékkal.
+Alapvetően egy egyszerű, de nagyszerű szabadidős tevékenységet kínál a programunk.
 
 ## Képernyőtervek
 
 
 
-## Funkció - követelmány megfeleltetés
+## Funkció - követelmény megfeleltetés
