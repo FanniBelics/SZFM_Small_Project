@@ -66,10 +66,10 @@ JÁTÉKOS: Egy átlagos felhasználó, tud játszani, regisztrálni és módosí
 <img src="./Pictures/F_fo.png"  width="800" height="550">
 
 ## Funkció - követelmény megfeleltetés
-A bejelentkezési felülettel megvalósul a felhasználók elkülönítése, és a hitelesítés.
-A regisztráció lehetővé teszi, hogy új felhasználó kerüljön a rendszerbe.
-Ezek együttesen a jelszó módosítás, és elfelejtett jelszó funkciókkal kielégítik a JÁTÉKOS szerepkört.
+A bejelentkezési felülettel megvalósul a felhasználók elkülönítése, és a hitelesítés (ID: K1, K6).
+A regisztráció lehetővé teszi, hogy új felhasználó kerüljön a rendszerbe (ID: K2, K7).
+Ezek együttesen a jelszó módosítás, és elfelejtett jelszó funkciókkal kielégítik a JÁTÉKOS szerepkört (ID: K3, K4).
 Természetesen ezekhez igényes megjelenítés, és a háttérben titkosítások társulnak,
-melyeket a profil felület foglal össze.
-A játék felületen történik a kirakók összerakása, ez a magja a programnak.
+melyeket a profil felület foglal össze (ID: K9).
+A játék felületen történik a kirakók összerakása, ez a magja a programnak (ID: K5, K8).
 
