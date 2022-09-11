@@ -49,7 +49,7 @@ A megrendelő azt szeretné ha a gyermekek a bejelentkezés oldalon be tudnának
 
 <img src="./Pictures/Fo.png"  width="800" height="550">
 
-<img src="./Pictures/F_kezdo.png"  width="800" height="550">
+<img src="./Pictures/F_Kezdo.png"  width="800" height="550">
 
 <img src="./Pictures/F_fo.png"  width="800" height="550">
 
