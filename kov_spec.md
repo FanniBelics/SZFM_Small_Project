@@ -29,4 +29,17 @@ A megrendelő azt szeretné ha a gyermekek a bejelentkezés oldalon be tudnának
 
 ## Követelménylista
 
+|Modul        | ID |Név                    | v.|Kifejtés                              |
+|-------------|----|-----------------------|---|--------------------------------------|
+| Jogosultság | K1 | Bejelentkezési felület | 1.0 |A felhasználó az email címe és a jelszavasegítségével bejelentkezhet. Ha a megadott e-mail cím vagy jelszó nem megfelelő, hiba üzenetet kap.|
+| Jogosultság | k2 | Regisztráció |1.0| A felhasználó e-mail cím és jelszó megadásával regisztrálhat. A jelszó tiktkosítva és az e-mail cím az adatbázisunkban tárolásra kerül. Ha valamelyik adat ezek közül közül hiányzik vagy nem megfelelő, arról a felhasználó értesítést kap.
+| Modifikáció | K3 | Jelszó módosítás | 1.0 | A felhasználó módosítani tudja a jelszavát, ehhez szükséges a régi és új jelszavának megadása.|
+| Modifikáció | K4| Elfelejtett jelszó | 1.0 | Ha a felhasználó elfeljetette a jelszavát, ezzel az opcióval tudjuk emlékeztetni. |
+| Feladattípus | K5 | Kép kirakás | 1.0 | A felhasználó kap néhány képdarabot, amiből ki kell raknia az adott képet, megadott időn belül|
+| Felület | K6 | Bejelentkezés | 1.0 | A felhasználók itt tudnak belépni a rendszerbe, probléma esetén jelszót változtatni. |
+| Felület | k7 | Regisztráció | 1.0 | A felhasználók ezen a felület tudnak regisztrálni. |
+| Felület | K8 | Játék | 1.0 |Ezen a felületen jelennek meg a kirakandó képek |
+| Felület | K9 | Profil | 1.0 |Itt látják a felhasználók az adataikat és a játékban elért szintjüket. |
+
+
 
