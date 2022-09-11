@@ -32,7 +32,7 @@ ez egy fizikai játék, mely nehézségétől függően ajánlott pici gyerekekt
 
 ## Igényelt üzleti folyamatok modellje
 A megrendelő azt szeretné ha a gyermekek a bejelentkezés oldalon be tudnának jelentkezni, illetve regisztrációt kezdeményezni, melyet egy új oldalon egy form segítségével tudnának véghez vinni. Emellett szeretne nehézségi szinteket és ezekhez igazodó pontrendszert, illetve pontokért igényelhető segítséget.A megrendelő igénye még, hogy a nehézségi szintek ne csak választhatóak legyenek, hanem ellenőrizzük azt is, hogy a felhasználónak van-e elég pontja a nehezebb szint megnyitásához.
-![modellrajz](igenyelt.jpg)
+<img src="./Pictures/igenyelt.jpg"  width="800" height="550">
 
 
 ## Követelménylista
@@ -46,7 +46,15 @@ csak leül és élvezheti a technika adta előnyöket, és játszhat a játékka
 Alapvetően egy egyszerű, de nagyszerű szabadidős tevékenységet kínál a programunk.
 
 ## Képernyőtervek
+<img src="./Pictures/Kezdo.png"  width="800" height="550">
 
+<img src="./Pictures/Reg.png"  width="800" height="550">
+
+<img src="./Pictures/Fo.png"  width="800" height="550">
+
+<img src="./Pictures/F_Kezdo.png"  width="800" height="550">
+
+<img src="./Pictures/F_fo.png"  width="800" height="550">
 
 
 ## Funkció - követelmény megfeleltetés
