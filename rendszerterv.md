@@ -116,3 +116,18 @@ módosítására vagy az abban lévő elemek törlésére. Emellett minden felha
 ## Telepítési terv
 
 ## Karbantartási terv
+Fontos az alkalmazás folyamatos karbantartása és naprakészen tartása, mely magába foglalja a programhibák
+elhárítását, az igényelt módosításokat, melyekre a belső igények változása miatt lehet szükség, 
+a környezeti feltételek változása miatt szükségessé váló program és állománymódosításokat, illetve a 
+folyamatos felhasználói figyelem és érdekeltség miatti frissítéseket.
+### Karbantartás
+#### Corrective Maintenance:
+A felhasználók által felfedezett és "user reportban"
+elküldött hibák kijavítása.
+#### Adaptive Maintenance:
+A program naprakészen tartása és finomhangolása.
+#### Perfective Maintenance:
+A szoftver hosszútávú használata érdekében végzett
+módosítások, új funkciók, a szoftver teljesítményének és működési megbízhatóságának javítása.
+Preventive Maintenance: Olyan problémák elhárítása, amelyek még nem
+tűnnek fontosnak, de később komoly problémákat okozhatnak.
