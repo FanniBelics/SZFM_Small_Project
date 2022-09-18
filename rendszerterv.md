@@ -39,7 +39,7 @@ Felnőtt tartalmak kizárása.
 Az alkalmazás webes felületre készül, mely reszponzív, tehát mobil eszközökön is jól használható.
 Van tűzfal a hálózaton és minden portot is engedélyez.
 Nincsenek megvásárolt komponenseink.
--Fejlesztői eszközök:
+- Fejlesztői eszközök:
     - Visual Studio Code
     - Visual Studio Code Live Server Extension
     - SQLite
