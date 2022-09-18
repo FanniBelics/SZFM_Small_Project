@@ -48,13 +48,39 @@ Nincsenek megvásárolt komponenseink.
     - CSS
 
 ## Architekturális terv
+Backend:
+A rendszerhez szükség van egy adatbázis szerverre.
+Ebben az esetben egy SQLite adatbázist fogunk használni.
+Ez fogja tárolni a felhasználók belépési adatait, teljesített szintjeit 
+és a képeket.
+Ebből az datbázisból Java alapú rendszerrel fogjuk kiszedni az adatokat és 
+felvinni rá.
+
+Web kliens:
+A web alkalmazás Javascript segítségével készül el.
+A felületen való navigálás lesz a feladata.
+A bevitt adatokat a Java backend fogja ellenőrizni.
+
 
 ## Adatbázis terv
 
 ## Implementációs terv
+A webes felület főként HTML, CSS és Javascriptet fog használni.
+A Javascript lesz felelős a képek betöltéséert és a UI felület kattintható gombjaiért.
+A backend Javában fog iródni, ez felelős a követelmények betartatáséert és
+az adatbázissal való kommunikációért.
+Az adatbázis pedig egy SQLite lesz.
+A frontend használni fogja a backend funkcióit, amik kommunikálnak az adatbázissal.
+Ezáltal képes lesz adatokat felvinni és lekérni az adatbázisból.
 
 ## Tesztterv
 
 ## Telepítési terv
+A szoftver webes felületéhez csak egy ajánlott böngésző telepítése
+szükséges (Google Chrome, Firefox, Opera, Safari),külön szoftver
+nem kell hozzá.
+A webszerverre közvetlenül az internetről
+kapcsolódnak rá a kliensek.
+Mobilon vagy tableten ugyanez a követelmény.
 
 ## Karbantartási terv
