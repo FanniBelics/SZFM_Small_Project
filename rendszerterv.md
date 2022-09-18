@@ -11,6 +11,7 @@ A felhasználó a puzzle nehézségének megfelelően pontszámot kap, melyeknek
 A játék webes felületen lesz elérhető, reszponzív megoldásokkal, így mobilról és tabletről is játszhatóvá szeretnénk tenni.
 
 ## Üzleti folyamatok modellje
+![Modell](Pictures/uzleti.png)
 
 ## Követelmények
 Felhasználók adatainak, előrehaladásának adatbázisban való tárolása.
