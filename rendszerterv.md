@@ -51,6 +51,7 @@ Fejlesztői eszközök:
 ## Architekturális terv
 
 ## Adatbázis terv
+![Modell](Pictures/adatb.png)
 
 ## Implementációs terv
 
