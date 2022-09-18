@@ -19,14 +19,14 @@ GDPR-nak való megfelelés.
 Felnőtt tartalmak kizárása.
 
 ## Funkcionális terv
-Szerepkörök: 
+    - Szerepkörök: 
         - Admin
         - Felhasználó
-    ADMIN:
+    - ADMIN:
         - Hozzáfér a felhasználók listájához, tudja őket menedzselni, adataikat módosítani, és törölni.
         - Jogosult új felhasználó felvételére
         - Jogosult mindenre amire a "Felhasználó" szerepkör is
-    FELHASZNÁLÓ:
+    - FELHASZNÁLÓ:
         - Tud regisztrálni
         - Meg tudja változtatni a jelszavát
         - Eléri a játékfelületet
@@ -39,13 +39,13 @@ Szerepkörök:
 Az alkalmazás webes felületre készül, mely reszponzív, tehát mobil eszközökön is jól használható.
 Van tűzfal a hálózaton és minden portot is engedélyez.
 Nincsenek megvásárolt komponenseink.
-Fejlesztői eszközök:
-                    - Visual Studio Code
-                    - Visual Studio Code Live Server Extension
-                    - SQLite
-                    - HTML5
-                    - Javascript (Pixi JS)
-                    - CSS
+-Fejlesztői eszközök:
+    - Visual Studio Code
+    - Visual Studio Code Live Server Extension
+    - SQLite
+    - HTML5
+    - Javascript (Pixi JS)
+    - CSS
 
 ## Architekturális terv
 
