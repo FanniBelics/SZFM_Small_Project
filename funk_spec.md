@@ -7,7 +7,7 @@ ne legyen túl bonyolult, elvégre gyerekek, vagy akár idősek is játszhatják
 A kulcs összehangolni a digitalizációt az egyszerűséggel, és nem utolsó sorban, mindez ingyenes.
 
 ## Jelenlegi helyzet leírása
-A gyerekek imádják a kirakós játékokat és a rajtuk lévő szép, színes képeket. Ennek darabkáit viszont könnyű elhagyni, elhajlítani, összekenni, és nehéz egy hosszabb útra magunkkal vinni. Tárolásuk rengeteg helyet igényel. Emellett egy-egy ilyen szett ára mára már az egekbe szökött, és a gyermek legfeljebb 3-4 alkalommal tudja megoldani mielőtt unalmassá válna számára.
+A gyerekek imádják a kirakós játékokat és a rajtuk lévő szép, színes képeket. Ennek darabkáit viszont könnyű elhagyni, elhajlítani, összekenni, és nehéz egy hosszabb útra magunkkal vinni. Tárolásuk rengeteg helyet igényel. Emellett egy-egy ilyen szett ára mára már az egekbe szökött, és a gyermek legfeljebb 3-4 alkalommal tudja megoldani mielőtt unalmassá válna számára. Így a dobozok feltornyosulnak, egy idő után már csak ide-oda pakolgatják őket, majd a szemétben végzik, ezzel is ártva a környezetünknek. A sérülékenységük miatt is hamar "tönkre mehetnek" hiszen ki akarna egy már mázgás, szétszakadt kirakóssal játszani, vagy olyannal amiből hiányzik pár darab?
 
 ## Vágyálom rendszer leírása
 A mai világban mindent képesek vagyunk digitalizálni és a jövő generációja ebben is fog felnőni.
@@ -20,6 +20,7 @@ Több szintű, minden szinten kap a felhasználó egy képet, amit időre ki kel
 Egyes szintek más-más pontot érnek, amit csillagokkal jelölünk, ezeket kell gyűjteni.
 Ha nem sikerül a játékosnak elég csillagot gyűjtenie, akkor nem léphet a következő szintre.
 Egy szinten maximum 3 csillagot lehet szerezni, megoldási idő függvénye, hogy hányat kap a játékos.
+
 
 ## Rendszerre vonatkozó külső megszorítások
 Mivel az alkalmazás lehetőséget ad a bejelentkezésre, kezelnünk kell az e-mail címeket és a jelszavakat a **GDPR**-nak megfelelően.
