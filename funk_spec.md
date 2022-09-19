@@ -35,8 +35,12 @@ A kirakós képei miatt gondolnunk kell a **Szerzői jogokra** illetve, mivel a 
 Emellett, mivel a felhasználók **18 éven aluliak** a felhasználási feltételeket is ennek megfelelően kell megfogalmaznunk.
 
 ## Jelenlegi üzleti folyamat modellje
-A klasszikus kirakós nem használja ki, a technika nyújtotta lehetőségeket, semmilyen digitalizáció nem történt ezen a téren,
-ez egy fizikai játék, mely nehézségétől függően ajánlott pici gyerekektől egészen felnőttekig.
+A klasszikus kirakós nem használja ki, a technika nyújtotta lehetőségeket. Mivel digitalizálva könnyebb újabb és újabb feladatot előállítani, így nem kellenek polcok és unalmas sem lesz a játék közbeni tanulás. Környezet és költségkímélő megoldás ugyanis nem kell előállítani a kirakóst, nem kellenek papírdobozok és szállítani sem kell őket, ráadásul a felhasználó számára ingyenes.
+Ezen kirakósok digitalizálása lehetővé tenné hogy egy e-book-hoz hasonlóan nagy mennyiséget halmozhassunk fel, a fizikai hely
+határai nélkül. Emellett a költségeket is csökkenthetné, és az előállítandó papír mennyiségét is csökkentené, ezzel csökkentve a
+környezetszennyezést. A digitalizálás megakadályozná az elemek elvesztését, és kopásállóságot biztosítana, így a szavatossági időt is képes lenne megnövelni.
+A kirakósok digitalizálása segíthetne a cégeknek a gyermekek által követett témák követésében, hiszens megspórolná az előállítás
+és a szállítás idejét is, így szinte ugyanazon termék hamarabb is eljutna a távolabbi, vagy nehezen elérhető helyekre is. 
 
 ## Igényelt üzleti folyamatok modellje
 A megrendelő azt szeretné, ha a gyermekek a bejelentkezés oldalon be tudnának jelentkezni, illetve regisztrációt kezdeményezni, melyet egy új oldalon egy form segítségével tudnának véghez vinni. Emellett szeretne nehézségi szinteket és ezekhez igazodó pontrendszert, illetve pontokért igényelhető segítséget. A megrendelő igénye még, hogy a nehézségi szintek ne csak választhatóak legyenek, hanem ellenőrizzük azt is, hogy a felhasználónak van-e elég pontja a nehezebb szint megnyitásához.
