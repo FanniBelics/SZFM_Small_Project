@@ -20,6 +20,13 @@ Több szintű, minden szinten kap a felhasználó egy képet, amit időre ki kel
 Egyes szintek más-más pontot érnek, amit csillagokkal jelölünk, ezeket kell gyűjteni.
 Ha nem sikerül a játékosnak elég csillagot gyűjtenie, akkor nem léphet a következő szintre.
 Egy szinten maximum 3 csillagot lehet szerezni, megoldási idő függvénye, hogy hányat kap a játékos.
+A rendszer fog tartalmazni egy admin felületet az adminok számára, mely által hozzáférnek a felhasználók listájához.
+Tudják őket menedzselni, módosítani, törölni.
+Tartalmazni fog egy játék felületet, melyen maga a játék történik.
+Egy bejelentkező/regisztrációs felületet, melyen bejelentkezik vagy regisztrál a felhasználó.
+Ehhez, a felhasználóval történt egyeztetés után, webes felületet fogunk használni, amit 
+elérhetővé teszünk mind személyi számítógépen, mind mobileszközökön és tableteken is elérhetővé teszünk,
+Android, Windows és IOS rendszereken is.
 
 
 ## Rendszerre vonatkozó külső megszorítások
