@@ -12,7 +12,7 @@ def index():
     session["levels"] = get_levels()
     session["roles"] = get_roles()
     session["userlevels"] = get_userlevel()
-    print(session["users"],session["images"],session["levels"],session["roles"],session["userlevels"])
+    #print(session["users"],session["images"],session["levels"],session["roles"],session["userlevels"])
     return render_template('layout.html')
 
 @app.route('/add_user', methods=['POST'])
@@ -46,6 +46,29 @@ def new_user():
         print(msg)
         db.close()
 
+    return render_template('layout.html')
+
+@app.route('/login', methods=["POST","GET"])
+def login():
+    db = getattr(g, '_database', None)
+    if db is None:
+        db = g._database = sql.connect('user_database.db')
+    cursor = db.cursor()
+
+    email = request.form['login_email']
+    psw = request.form['login_psw']
+
+    print('EMAIL: ',email,' PSW: ',psw)
+
+    cursor.execute("SELECT user_name FROM user WHERE email = ? AND user_psw = ?",(email,psw))
+    record = cursor.fetchone()
+    if record is not None:
+        session["user_name"] = record[0]
+        print(session["user_name"])
+        cursor.execute("SELECT total_score FROM user WHERE user_name = ?",(session["user_name"],))
+        session["total_score"] = cursor.fetchone()[0]
+        print('USER NAME: ',session["user_name"])
+        return render_template('game.html', user_name=session["user_name"], total_score=session["total_score"])
     return render_template('layout.html')
 
 def get_users():
@@ -87,30 +110,6 @@ def get_userlevel():
     cursor = db.cursor()
     cursor.execute('SELECT * FROM user_level')
     return cursor.fetchall()
-
-@app.route('/addrec', methods= ['POST', 'GET'])
-def addrec():
-    if request.method == 'POST':
-        try:
-            e_mail = request.form('e_mail')
-            user_name = request.form('user_name')
-            user_psw = request.form('user_psw')
-
-            with sql.connect('user_database.db') as con:
-                cur = con.cursor
-
-                cur.execute("INSERT INTO user (e-mail, user_name, user_psw, total_score, role_id) VALUES (?,?,?,?,?)",
-                (e_mail, user_name, user_psw, None, 2))
-
-                con.commit()
-
-                msg = 'Record successfully added'
-        except:
-            con.rollback()
-            msg = 'Error'
-        finally:
-            print(msg)
-            con.close()
 
 if __name__ == '__main__':
     app.run(debug=True)
