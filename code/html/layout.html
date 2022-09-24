@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>The Puzzle Game</title>
-<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
 <script src="panel.js"></script>
@@ -36,10 +36,10 @@
 <!-- Register Box -->
 <div id="register">
     <h1>Create Account</h1>
-    <form>
-        <input type="text" placeholder="Name" autocomplete="off"><br>
-        <input type="email" placeholder="Email" autocomplete="off"><br>
-        <input type="password" placeholder="Password" autocomplete="off"><br>
+    <form action="/add_user" method="POST">
+        <input type="text" placeholder="Name" autocomplete="off" name="user_name"><br>
+        <input type="email" placeholder="Email" autocomplete="off" name="e_mail"><br>
+        <input type="password" placeholder="Password" autocomplete="off" name="user_psw"><br>
         <button class="submit-btn" id="singUp" type="submit" value="Sign In">Sign Up</button>
     </form>
 </div>
