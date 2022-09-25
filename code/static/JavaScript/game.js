@@ -107,5 +107,6 @@ function checkCorrect()
         }
         i++;
     }
-    alert("Level Cleared")
+    document.getElementById('clearlevel').style.visibility = 'visible';
+
 }
