@@ -11,7 +11,7 @@ window.onload = function()
         for (let c=0; c < cols; c++)
         {
             let tile = document.createElement("img");
-            tile.src = "./Level1/blank.jpg";
+            tile.src = "../static/game_pictures/Level1/blank.jpg";
 
             tile.addEventListener("dragstart", dragStart);
             tile.addEventListener("dragover", dragOver);
@@ -41,7 +41,7 @@ window.onload = function()
     for(let i = 0; i < pieces.length; i++)
     {
         let tile = document.createElement("img");
-        tile.src = "../../Pictures/Level1/"+pieces[i]+".jpg";
+        tile.src = "../static/game_pictures/Level1/"+pieces[i]+".jpg";
 
         tile.addEventListener("dragstart", dragStart);
         tile.addEventListener("dragover", dragOver);
