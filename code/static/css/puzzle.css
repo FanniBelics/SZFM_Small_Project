@@ -39,3 +39,32 @@ body
     display: flex;
     flex-direction: row;
 }
+
+/*TODO better*/
+
+#board
+{
+    border: 2px solid black;
+    width: 300px;
+    margin:auto;
+    margin-bottom: 50px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pieces
+{
+    border: 2px solid black;
+    width: 67%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img
+{
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+}
