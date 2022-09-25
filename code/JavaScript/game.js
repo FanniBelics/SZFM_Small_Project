@@ -13,6 +13,13 @@ window.onload = function()
             let tile = document.createElement("img");
             tile.src = "../../Pictures/Level1/blank.jpg";
 
+            tile.addEventListener("dragstart", dragStart);
+            tile.addEventListener("dragover", dragOver);
+            tile.addEventListener("dragenter",dragEnter);
+            tile.addEventListener("dragleave",dragLeave);
+            tile.addEventListener("drop", dragDrop);
+            tile.addEventListener("dragend", dragEnd);  
+
             document.getElementById("board").append(tile)
         }
     }
@@ -35,6 +42,51 @@ window.onload = function()
     {
         let tile = document.createElement("img");
         tile.src = "../../Pictures/Level1/"+pieces[i]+".jpg";
+
+        tile.addEventListener("dragstart", dragStart);
+        tile.addEventListener("dragover", dragOver);
+        tile.addEventListener("dragenter",dragEnter);
+        tile.addEventListener("dragleave",dragLeave);
+        tile.addEventListener("drop", dragDrop);
+        tile.addEventListener("dragend", dragEnd);
         document.getElementById("pieces").append(tile)
     }
+}
+
+function dragStart()
+{
+    currTile = this;
+}
+
+function dragOver(e)
+{
+    e.preventDefault();
+}
+
+function dragEnter(e)
+{
+    e.preventDefault();
+}
+
+function dragLeave()
+{
+
+}
+
+function dragDrop()
+{
+    otherTile = this;
+}
+
+function dragEnd()
+{
+    if (currTile.src.includes("blank"))
+    {
+        return;
+    }
+
+    let currImg = currTile.src;
+    let otherImg = otherTile.src;
+    currTile.src = otherImg;
+    otherTile.src = currImg;
 }
