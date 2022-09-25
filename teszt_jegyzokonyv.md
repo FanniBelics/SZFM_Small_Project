@@ -18,11 +18,16 @@
 | J5 | Kockamozgatás | A kockák megjelennek és a mozgathatóak  | OK |
 | J6 | Kockamozgatás D&D | A kockákon működik a drag and drop funkció  | OK |
 | J7 | Üres kocka | Üres kockát nem lehet a képrészletekkel cserélni  | OK |
-| J8 | Megoldhatóság | A puzzle megoldható, megoldáskor üzenet jelenik meg | OK |
+| J8 | Megoldhatóság | A puzzle megoldható| OK |
 | J9 | Megoldáskép | Az oldalon megjelenik a megoldás képe is, jó kép jelenik meg  | OK |
 | J10 | Felcserélhetőség | A nemüres kockák egymással felcserélhetők | OK |
 | J11 | Chrome | A játék játszható Google Chrome böngészőben | OK |
 | J12 | Nem Admin | Nem admin játékosoknak nem jelenik meg az Admin gomb | OK |
+| J13 | Megoldásüzenet |Megoldáskor üzenet pattan fel gombbal kiegészítve | OK |
+| J14 | Gomb pontot ad | A gombra kattintva a játékos plusz pontot szerez | OK |
+| J15 | Újrakezdés | A pont begyűjtése után a játék újrakezdhető | OK |
+| J16 | Egyszeri pont | A pont egyszer gyűjthető be megoldásonként | OK |
+
 
 
 
