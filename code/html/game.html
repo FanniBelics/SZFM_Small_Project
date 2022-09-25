@@ -28,7 +28,10 @@
       </div>
           <img id= 'full-img'src = "../static/game_pictures/Level1/summer_full.png"/>
     </div>
-    <p id = 'clearlevel'style="visibility: hidden;">Level cleared!</p>
+    <form action="/claimpoints" method="POST">
+        <p id = 'clearlevel'style="visibility: visible;">Level cleared!</p>
+        <button id='clearlevelbutton' style="visibility: visible;">CLAIM POINTS</button>
+    </form>
     <!-- <div id="board"></div> -->
     <!-- <img src = "../static/game_pictures/Level1/summer_full.png" style="display:inline;"/> -->
     <!-- <div id="pieces"></div> -->

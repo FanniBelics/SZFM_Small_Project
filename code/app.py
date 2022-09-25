@@ -85,6 +85,12 @@ def admin():
 
     return render_template('admin.html',users=session["users"])
 
+@app.route('/claimpoints', methods=['POST'])
+def claim():
+    session["total_score"] += 10
+
+    return render_template('game.html', user_name=session["user_name"], total_score=session["total_score"], role_id=session["role_id"])
+
 def get_users():
     db = getattr(g, '_database', None)
     if db is None:
