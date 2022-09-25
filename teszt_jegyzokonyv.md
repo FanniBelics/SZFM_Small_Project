@@ -22,6 +22,8 @@
 | J9 | Megoldáskép | Az oldalon megjelenik a megoldás képe is, jó kép jelenik meg  | OK |
 | J10 | Felcserélhetőség | A nemüres kockák egymással felcserélhetők | OK |
 | J11 | Chrome | A játék játszható Google Chrome böngészőben | OK |
+| J12 | Nem Admin | Nem admin játékosoknak nem jelenik meg az Admin gomb | OK |
+
 
 
 ### Admin felület
