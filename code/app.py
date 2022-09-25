@@ -73,6 +73,13 @@ def login():
         return render_template('game.html', user_name=session["user_name"], total_score=session["total_score"])
     return render_template('layout.html')
 
+@app.route('/logout')
+def logout():
+    session["user_name"] = None
+    session["total_score"] = None
+
+    return render_template('layout.html')
+
 def get_users():
     db = getattr(g, '_database', None)
     if db is None:
