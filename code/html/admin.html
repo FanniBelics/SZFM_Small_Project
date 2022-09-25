@@ -8,25 +8,38 @@
     <title>Admin felület</title>
 </head>
 <body>
-    <table style="border: thin solid black; margin:auto">
-        <thead>
-            <td style="padding-right: 1em; border-bottom: thin solid black;">E-MAIL</td>
-            <td style="padding-right: 1em; border-bottom: thin solid black;">USERNAME</td>
-            <td style="padding-right: 1em; border-bottom: thin solid black;">PASSWORD</td>
-            <td style="padding-right: 1em; border-bottom: thin solid black;">TOTAL SCORE</td>
-            <td style="padding-right: 1em; border-bottom: thin solid black;">ROLE ID</td>
-            <td style="padding-right: 1em; border-bottom: thin solid black;">DELETE</td>
-        </thead>
-        {% for item in users %}
-        <tr style="margin: 2em;">
-            <td style="padding-right: 1em;">{{ item[0] }}</td>
-            <td style="padding-right: 1em;">{{ item[1] }}</td>
-            <td style="padding-right: 1em;">{{ item[2] }}</td>
-            <td style="padding-right: 1em;">{{ item[3] }}</td>
-            <td style="padding-right: 1em;">{{ item[4] }}</td>
-            <td style="padding-right: 1em;"><button>DELETE USER</button></td>
-        </tr>
-        {% endfor %}
-    </table>
+    <div>
+        <form action='/back_from_admin' method="post">
+            <button>BACK</button>
+        </form>
+
+        <table style="border: thin solid black; margin:auto">
+            <thead>
+                <td style="padding-right: 1em; border-bottom: thin solid black;">E-MAIL</td>
+                <td style="padding-right: 1em; border-bottom: thin solid black;">USERNAME</td>
+                <td style="padding-right: 1em; border-bottom: thin solid black;">PASSWORD</td>
+                <td style="padding-right: 1em; border-bottom: thin solid black;">TOTAL SCORE</td>
+                <td style="padding-right: 1em; border-bottom: thin solid black;">ROLE ID</td>
+                <td style="padding-right: 1em; border-bottom: thin solid black;">DELETE</td>
+            </thead>
+            <form action="/delete_users", method="post">
+                {% for item in users %}
+                <tr style="margin: 2em;">
+                    <td style="padding-right: 1em;">{{ item[0] }}</td>
+                    <td style="padding-right: 1em;">{{ item[1] }}</td>
+                    <td style="padding-right: 1em;">{{ item[2] }}</td>
+                    <td style="padding-right: 1em;">{{ item[3] }}</td>
+                    <td style="padding-right: 1em;">{{ item[4] }}</td>
+                    <td style="padding-right: 1em;"><input type="checkbox" name="check" id="{{ item[0] }}"value="{{ item[0] }}"></td>
+                </tr>
+                {% endfor %}
+                <tr style="margin: 2em;">
+                    <td colspan="6" style="border: thin solid black; text-align: center;">
+                        <button style="margin: auto;">DELETE</button>
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </div>
 </body>
 </html>
