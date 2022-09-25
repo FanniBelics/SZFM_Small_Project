@@ -89,4 +89,23 @@ function dragEnd()
     let otherImg = otherTile.src;
     currTile.src = otherImg;
     otherTile.src = currImg;
+
+    checkCorrect()
+}
+
+function checkCorrect()
+{
+    board = document.querySelectorAll('#board > *')
+    let i = 1;
+    for(const element of board)
+    {
+        let source = element.src.toString();
+        let num = source.substring(source.search('part_')+5,source.search('.jpg'))
+        if(i != num)
+        {
+            return;
+        }
+        i++;
+    }
+    alert("Level Cleared")
 }
