@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <title>Game here</title>
 </head>
 <body>
@@ -13,6 +13,6 @@
         <p>Score: {{ total_score }}<span id="user_score"></span></p>
         <button>Logout</button>
     </nav>
-    <img src="../../Pictures/27174997_beyj_vo5b_220304.jpg" alt="game" style="width: 50%;">
+    <img src="{{ url_for('static', filename='game_pictures/27174997_beyj_vo5b_220304.jpg') }}" alt="game" style="width: 50%;">
 </body>
 </html>
