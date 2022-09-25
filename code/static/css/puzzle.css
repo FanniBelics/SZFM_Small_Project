@@ -88,3 +88,19 @@ button
     border: 2px solid black;
 }
 
+#clearform
+{
+    color: #fff;
+    background-color: blueviolet;
+    width: 10%;
+    height: fit-content;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
