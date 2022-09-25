@@ -1,5 +1,5 @@
 import sqlite3 as sql
-
+import hashlib as hl
 from flask import Flask, g, render_template, request, session
 
 app = Flask(__name__, template_folder='html')
@@ -28,13 +28,14 @@ def new_user():
         user_name = request.form['user_name']
         print('USER NAME: ',user_name)
         user_psw = request.form['user_psw']
-        print('USER PSW: ',user_psw)
+        encrypted = hl.md5(user_psw.encode()).hexdigest()
+        print('USER PSW: ',user_psw, ' ENCODED: ',encrypted)
 
         
         
 
         cursor.execute("INSERT INTO user (email, user_name, user_psw, total_score, role_id) VALUES (?,?,?,?,?)",
-        (e_mail, user_name, user_psw,0,2))
+        (e_mail, user_name, encrypted,0,2))
 
         db.commit()
 
@@ -57,17 +58,18 @@ def login():
 
     email = request.form['login_email']
     psw = request.form['login_psw']
+    encrypted = hl.md5(psw.encode()).hexdigest()
 
-    print('EMAIL: ',email,' PSW: ',psw)
+    print('EMAIL: ',email,' PSW: ',psw, ' ENCRYPTED: ',encrypted)
 
-    cursor.execute("SELECT user_name FROM user WHERE email = ? AND user_psw = ?",(email,psw))
+    cursor.execute("SELECT user_name FROM user WHERE email = ? AND user_psw = ?",(email,encrypted))
     record = cursor.fetchone()
     if record is not None:
         session["user_name"] = record[0]
         print(session["user_name"])
         cursor.execute("SELECT total_score FROM user WHERE user_name = ?",(session["user_name"],))
         session["total_score"] = cursor.fetchone()[0]
-        print('USER NAME: ',session["user_name"])
+        print('USER NAME: ',session["user_name"], 'SCORE: ',session["total_score"])
         return render_template('game.html', user_name=session["user_name"], total_score=session["total_score"])
     return render_template('layout.html')
 
