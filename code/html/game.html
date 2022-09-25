@@ -9,6 +9,7 @@
     <title>Game here</title>
 </head>
 <body>
+    <div class="main">
     <nav>
         <p>Username: {{ user_name }}<span id="user_name"></span></p>
         <p>Score: {{ total_score }}<span id="user_score"></span></p>
@@ -21,8 +22,11 @@
             <button type="submit">Logout</button>
         </form>
     </nav>
-    <div id="board"></div>
-    <img src = "../static/game_pictures/Level1/summer_full.png" style="display:inline;"/>
-    <div id="pieces"></div>
+    <div id="borad-piece">
+        <div id="board"></div>
+        <div id="pieces"></div>
+    </div>
+        <img id= 'full-img'src = "../static/game_pictures/Level1/summer_full.png"/>
+</div>
 </body>
 </html>
