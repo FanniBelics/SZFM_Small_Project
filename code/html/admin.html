@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Admin felület</title>
+</head>
+<body>
+    <table style="border: thin solid black;">
+        <thead>
+            <td style="padding-right: 1em;">E-MAIL</td>
+            <td style="padding-right: 1em;">USERNAME</td>
+            <td style="padding-right: 1em;">PASSWORD</td>
+            <td style="padding-right: 1em;">TOTAL SCORE</td>
+            <td style="padding-right: 1em;">ROLE ID</td>
+        </thead>
+        {% for item in users %}
+        <tr style="margin: 2em;">
+            <td style="padding-right: 1em;">{{ item[0] }}</td>
+            <td style="padding-right: 1em;">{{ item[1] }}</td>
+            <td style="padding-right: 1em;">{{ item[2] }}</td>
+            <td style="padding-right: 1em;">{{ item[3] }}</td>
+            <td style="padding-right: 1em;">{{ item[4] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
