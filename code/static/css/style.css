@@ -208,17 +208,3 @@ button
     padding: 20px;
     text-align: center;
 }
-
-/*TODO better*/
-
-#board
-{
-    border: 2px solid black;
-    width: 400px;
-}
-
-#board img
-{
-    width: fit-content;
-    height: fit-content;
-}

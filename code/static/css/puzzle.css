@@ -39,3 +39,17 @@ body
     display: flex;
     flex-direction: row;
 }
+
+/*TODO better*/
+
+#board
+{
+    border: 2px solid black;
+    width: 300px;
+}
+
+#board img
+{
+    width: fit-content;
+    height: fit-content;
+}
