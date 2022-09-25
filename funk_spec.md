@@ -2,12 +2,17 @@
 
 ## Rendszer céljai és nem céljai
 A klasszikus kirakós játék egyaránt gyermekek és felnőttek kedvence, egyszerű és szórakoztató játék.
-A rendszerünk célja, hogy egy ingyenes, digitalizált megoldást hozzon a játékhoz, mely ugyanúgy érdekelhet, és kihívást jelenthet majd minden korosztály számára. Fontos, hogy nem szeretnénk, hogy elveszítse a játék fő érdekességeit,
+A rendszerünk célja, hogy egy ingyenes, digitalizált megoldást hozzon a játékhoz, mely ugyanúgy érdekelhet, és kihívást jelenthet majd minden korosztály számára.
+Fontos, hogy nem szeretnénk, hogy elveszítse a játék fő érdekességeit,
 ne legyen túl bonyolult, elvégre gyerekek, vagy akár idősek is játszhatják.
 A kulcs összehangolni a digitalizációt az egyszerűséggel, és nem utolsó sorban, mindez ingyenes.
 
 ## Jelenlegi helyzet leírása
-A gyerekek imádják a kirakós játékokat és a rajtuk lévő szép, színes képeket. Ennek darabkáit viszont könnyű elhagyni, elhajlítani, összekenni, és nehéz egy hosszabb útra magunkkal vinni. Tárolásuk rengeteg helyet igényel. Emellett egy-egy ilyen szett ára mára már az egekbe szökött, és a gyermek legfeljebb 3-4 alkalommal tudja megoldani mielőtt unalmassá válna számára. Így a dobozok feltornyosulnak, egy idő után már csak ide-oda pakolgatják őket, majd a szemétben végzik, ezzel is ártva a környezetünknek. A sérülékenységük miatt is hamar "tönkre mehetnek" hiszen ki akarna egy már mázgás, szétszakadt kirakóssal játszani, vagy olyannal amiből hiányzik pár darab?
+A gyerekek imádják a kirakós játékokat és a rajtuk lévő szép, színes képeket. Ennek darabkáit viszont könnyű elhagyni, elhajlítani, összekenni, és nehéz egy hosszabb útra magunkkal vinni. 
+Tárolásuk rengeteg helyet igényel. 
+Emellett egy-egy ilyen szett ára mára már az egekbe szökött, és a gyermek legfeljebb 3-4 alkalommal tudja megoldani mielőtt unalmassá válna számára. 
+Így a dobozok feltornyosulnak, egy idő után már csak ide-oda pakolgatják őket, majd a szemétben végzik, ezzel is ártva a környezetünknek.
+A sérülékenységük miatt is hamar "tönkre mehetnek" hiszen ki akarna egy már mázgás, szétszakadt kirakóssal játszani, vagy olyannal amiből hiányzik pár darab?
 
 ## Vágyálom rendszer leírása
 A mai világban mindent képesek vagyunk digitalizálni és a jövő generációja ebben is fog felnőni.
@@ -35,7 +40,8 @@ A kirakós képei miatt gondolnunk kell a **Szerzői jogokra** illetve, mivel a 
 Emellett, mivel a felhasználók **18 éven aluliak** a felhasználási feltételeket is ennek megfelelően kell megfogalmaznunk.
 
 ## Jelenlegi üzleti folyamat modellje
-A klasszikus kirakós nem használja ki, a technika nyújtotta lehetőségeket. Mivel digitalizálva könnyebb újabb és újabb feladatot előállítani, így nem kellenek polcok és unalmas sem lesz a játék közbeni tanulás. Környezet és költségkímélő megoldás ugyanis nem kell előállítani a kirakóst, nem kellenek papírdobozok és szállítani sem kell őket, ráadásul a felhasználó számára ingyenes.
+A klasszikus kirakós nem használja ki, a technika nyújtotta lehetőségeket. Mivel digitalizálva könnyebb újabb és újabb feladatot előállítani, így nem kellenek polcok és unalmas sem lesz a játék közbeni tanulás.
+Környezet és költségkímélő megoldás ugyanis nem kell előállítani a kirakóst, nem kellenek papírdobozok és szállítani sem kell őket, ráadásul a felhasználó számára ingyenes.
 Ezen kirakósok digitalizálása lehetővé tenné hogy egy e-book-hoz hasonlóan nagy mennyiséget halmozhassunk fel, a fizikai hely
 határai nélkül. Emellett a költségeket is csökkenthetné, és az előállítandó papír mennyiségét is csökkentené, ezzel csökkentve a
 környezetszennyezést. A digitalizálás megakadályozná az elemek elvesztését, és kopásállóságot biztosítana, így a szavatossági időt is képes lenne megnövelni.
@@ -43,7 +49,9 @@ A kirakósok digitalizálása segíthetne a cégeknek a gyermekek által követe
 és a szállítás idejét is, így szinte ugyanazon termék hamarabb is eljutna a távolabbi, vagy nehezen elérhető helyekre is. 
 
 ## Igényelt üzleti folyamatok modellje
-A megrendelő azt szeretné, ha a gyermekek a bejelentkezés oldalon be tudnának jelentkezni, illetve regisztrációt kezdeményezni, melyet egy új oldalon egy form segítségével tudnának véghez vinni. Emellett szeretne nehézségi szinteket és ezekhez igazodó pontrendszert, illetve pontokért igényelhető segítséget. A megrendelő igénye még, hogy a nehézségi szintek ne csak választhatóak legyenek, hanem ellenőrizzük azt is, hogy a felhasználónak van-e elég pontja a nehezebb szint megnyitásához.
+A megrendelő azt szeretné, ha a gyermekek a bejelentkezés oldalon be tudnának jelentkezni, illetve regisztrációt kezdeményezni, melyet egy új oldalon egy form segítségével tudnának véghez vinni. 
+Emellett szeretne nehézségi szinteket és ezekhez igazodó pontrendszert, illetve pontokért igényelhető segítséget.
+A megrendelő igénye még, hogy a nehézségi szintek ne csak választhatóak legyenek, hanem ellenőrizzük azt is, hogy a felhasználónak van-e elég pontja a nehezebb szint megnyitásához.
 <img src="./Pictures/igenyelt.jpg"  width="800" height="550">
 
 ## Követelménylista
