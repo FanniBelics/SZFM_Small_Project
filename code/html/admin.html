@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="../static/css/style.css">
     <title>Admin felület</title>
 </head>
 <body>
-    <table style="border: thin solid black;">
+    <table style="border: thin solid black; margin:auto">
         <thead>
-            <td style="padding-right: 1em;">E-MAIL</td>
-            <td style="padding-right: 1em;">USERNAME</td>
-            <td style="padding-right: 1em;">PASSWORD</td>
-            <td style="padding-right: 1em;">TOTAL SCORE</td>
-            <td style="padding-right: 1em;">ROLE ID</td>
+            <td style="padding-right: 1em; border-bottom: thin solid black;">E-MAIL</td>
+            <td style="padding-right: 1em; border-bottom: thin solid black;">USERNAME</td>
+            <td style="padding-right: 1em; border-bottom: thin solid black;">PASSWORD</td>
+            <td style="padding-right: 1em; border-bottom: thin solid black;">TOTAL SCORE</td>
+            <td style="padding-right: 1em; border-bottom: thin solid black;">ROLE ID</td>
         </thead>
         {% for item in users %}
         <tr style="margin: 2em;">
