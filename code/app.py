@@ -31,9 +31,6 @@ def new_user():
         encrypted = hl.md5(user_psw.encode()).hexdigest()
         print('USER PSW: ',user_psw, ' ENCODED: ',encrypted)
 
-        
-        
-
         cursor.execute("INSERT INTO user (email, user_name, user_psw, total_score, role_id) VALUES (?,?,?,?,?)",
         (e_mail, user_name, encrypted,0,2))
 
@@ -67,18 +64,26 @@ def login():
     if record is not None:
         session["user_name"] = record[0]
         print(session["user_name"])
-        cursor.execute("SELECT total_score FROM user WHERE user_name = ?",(session["user_name"],))
-        session["total_score"] = cursor.fetchone()[0]
-        print('USER NAME: ',session["user_name"], 'SCORE: ',session["total_score"])
-        return render_template('game.html', user_name=session["user_name"], total_score=session["total_score"])
+        cursor.execute("SELECT total_score, role_id FROM user WHERE user_name = ?",(session["user_name"],))
+        user = cursor.fetchone()
+        session["total_score"] = user[0]
+        session["role_id"] = user[1]
+        print('USER NAME: ',session["user_name"], 'SCORE: ',session["total_score"], 'ROLE: ',session["role_id"])
+        return render_template('game.html', user_name=session["user_name"], total_score=session["total_score"], role_id=session["role_id"])
     return render_template('layout.html')
 
-@app.route('/logout')
+@app.route('/logout', methods=['POST', 'GET'])
 def logout():
     session["user_name"] = None
     session["total_score"] = None
 
     return render_template('layout.html')
+
+@app.route('/admin', methods=['POST', 'GET'])
+def admin():
+    session["users"] = get_users()
+
+    return render_template('admin.html',users=session["users"])
 
 def get_users():
     db = getattr(g, '_database', None)
