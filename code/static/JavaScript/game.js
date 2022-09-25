@@ -11,7 +11,7 @@ window.onload = function()
         for (let c=0; c < cols; c++)
         {
             let tile = document.createElement("img");
-            tile.src = "../../Pictures/Level1/blank.jpg";
+            tile.src = "./Level1/blank.jpg";
 
             tile.addEventListener("dragstart", dragStart);
             tile.addEventListener("dragover", dragOver);
