@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/admin.css">
     <title>Admin felület</title>
 </head>
 <body>
@@ -15,7 +15,7 @@
             <td style="padding-right: 1em; border-bottom: thin solid black;">PASSWORD</td>
             <td style="padding-right: 1em; border-bottom: thin solid black;">TOTAL SCORE</td>
             <td style="padding-right: 1em; border-bottom: thin solid black;">ROLE ID</td>
-            <td style="padding-right: 1em; border-bottom: thin solid black;">CHANGE</td>
+            <td style="padding-right: 1em; border-bottom: thin solid black;">DELETE</td>
         </thead>
         {% for item in users %}
         <tr style="margin: 2em;">
@@ -24,7 +24,7 @@
             <td style="padding-right: 1em;">{{ item[2] }}</td>
             <td style="padding-right: 1em;">{{ item[3] }}</td>
             <td style="padding-right: 1em;">{{ item[4] }}</td>
-            <td style="padding-right: 1em;"><button>CHANGE USER</button></td>
+            <td style="padding-right: 1em;"><button>DELETE USER</button></td>
         </tr>
         {% endfor %}
     </table>
