@@ -108,5 +108,6 @@ function checkCorrect()
         i++;
     }
     document.getElementById('clearlevel').style.visibility = 'visible';
+    document.getElementById('clearlevelbutton').style.visibility = 'visible';
 
 }
