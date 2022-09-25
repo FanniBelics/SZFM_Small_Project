@@ -1,0 +1,41 @@
+body
+{
+    background-color: rgb(208, 208, 208);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+table thead
+{
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+table thead tr th{
+    border-bottom: 1px solid #000000;
+}
+
+button
+{
+    border-radius: 10%;
+    height: 35px;
+}
+
+button:hover
+{
+    background-color: red;
+}
+button:active
+{
+    background-color: darkred;
+
+}
+
+table tr:hover
+{
+    border: red 1px solid;
+}
